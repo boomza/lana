@@ -1,0 +1,260 @@
+{
+	"info": {
+		"_postman_id": "25b5ec8d-b35b-4c2b-8187-b43913558f4d",
+		"name": "Promotion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "health",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5000/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promotion-1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"sku\": \"A304SD\",\r\n        \"Quantity\": 7\r\n    },\r\n    {\r\n        \"sku\": \"43N23P\",\r\n        \"Quantity\": 1\r\n    },\r\n    {\r\n        \"sku\": \"120P90\",\r\n        \"Quantity\": 3\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/promotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"promotion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promotion-2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"sku\": \"120P90\",\r\n        \"Quantity\": 100\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/promotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"promotion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promotion-3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"sku\": \"000\",\r\n        \"Quantity\": 1\r\n    },\r\n    {\r\n        \"sku\": \"120P90\",\r\n        \"Quantity\": 100\r\n    },\r\n    {\r\n        \"sku\": \"120P90\",\r\n        \"Quantity\": 0\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/promotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"promotion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promotion-4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"sku\": \"120P90\",\r\n        \"Quantity\": 0\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/promotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"promotion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promotion-1A",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"sku\": \"120P90\",\r\n        \"Quantity\": 1\r\n    },\r\n    {\r\n        \"sku\": \"43N23P\",\r\n        \"Quantity\": 1\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/promotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"promotion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promotion-1B",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"sku\": \"120P90\",\r\n        \"Quantity\": 3\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/promotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"promotion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promotion-1C",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"sku\": \"A304SD\",\r\n        \"Quantity\": 3\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/promotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"promotion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promotion-1D",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"sku\": \"A304SD\",\r\n        \"Quantity\": 7\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/promotion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"promotion"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
